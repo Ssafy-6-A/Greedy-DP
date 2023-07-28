@@ -7,7 +7,7 @@ https://limm-jk.tistory.com/4
 
 https://epicarts.tistory.com/98
 
----
+및 노션
 
 ### 2주차 문제
 
