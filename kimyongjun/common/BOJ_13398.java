@@ -44,20 +44,20 @@ public class BOJ_13398 {
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         int N = Integer.parseInt(br.readLine());
-        int[] num = new int[N + 1];
-        int[][] dp = new int[2][N + 1];
+        int[] num = new int[N + 1]; // 수열 저장하는 배열
+        int[][] dp = new int[2][N + 1]; // 메모이제이션 하는 배열 dp[제거한 숫자의 갯수][현재 인덱스] = 현재 인덱스에서 가장 큰 연속합의 값
         StringTokenizer st = new StringTokenizer(br.readLine());
         for (int i = 1; i <= N; i++) {
             num[i] = Integer.parseInt(st.nextToken());
         }
 
-        dp[0][0] = dp[0][1] = -1001;
-        int max = Integer.MIN_VALUE;
-        for (int i = 1; i <= N; i++) {
-            dp[0][i] = Math.max(dp[0][i - 1], 0) + num[i];
-            dp[1][i] = Math.max(dp[1][i - 1] + num[i], dp[0][i - 1]);
+        dp[0][0] = dp[0][1] = -1001; // n = 1이고 입력값이 음수인 경우 예외처리 하지 않으면 int 기본값인 0이 출력될 수 있음.
+        int max = Integer.MIN_VALUE; // 연속합의 최댓값을 저장할 변수
+        for (int i = 1; i <= N; i++) { // ArrayIndexOutOfBounds 에러를 피하기 위해 1만큼 패딩
+            dp[0][i] = Math.max(dp[0][i - 1], 0) + num[i]; // 숫자 제거를 생각하지 않았을 때에는 이전값이 음수인지 양수인지에 따라 결정됨
+            dp[1][i] = Math.max(dp[1][i - 1] + num[i], dp[0][i - 1]); // 숫자 제거하는 상황에서는 이미 제거된 경우와 현재 인덱스 값을 제거하는 경우 중 큰 값을 선택
 
-            max = Math.max(max, Math.max(dp[0][i], dp[1][i]));
+            max = Math.max(max, Math.max(dp[0][i], dp[1][i])); // 최댓값 갱신
         }
 
         System.out.println(max);
