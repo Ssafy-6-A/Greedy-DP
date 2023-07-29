@@ -37,4 +37,4 @@ N과 M은 시리즈 많으니까 **백트래킹 감 잡으려면 연속해서 �
 
 [BOJ_16946 벽 부수고 이동하기 4](https://www.acmicpc.net/problem/16946)
 
-1문제 미정
+[BOJ_2568 전깃줄 2](https://www.acmicpc.net/problem/2568)
