@@ -4,7 +4,22 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1f4c6bac-2e35-4ab5-b2f2-eb73ebb0bd2d" name="Changes" comment="BOJ_2568 풀이 코드" />
+    <list default="true" id="1f4c6bac-2e35-4ab5-b2f2-eb73ebb0bd2d" name="Changes" comment="BOJ_1339 풀이 코드">
+      <change beforePath="$PROJECT_DIR$/.idea/Greedy-DP.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/choiseohyun/common/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/choiseohyun/group/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kimsuhyeok/common/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kimsuhyeok/group/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Greedy-DP/설계 프레임" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/parkhayoon/common/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/parkhayoon/group/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/설계 프레임" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -105,6 +120,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="Greedy-DP" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="Greedy-DP" />
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Application.BOJ_1339" />
@@ -127,7 +155,8 @@
       <workItem from="1690558660629" duration="260000" />
       <workItem from="1690630587826" duration="154000" />
       <workItem from="1690630755019" duration="5296000" />
-      <workItem from="1690681892595" duration="4326000" />
+      <workItem from="1690681892595" duration="4566000" />
+      <workItem from="1690686531106" duration="166000" />
     </task>
     <task id="LOCAL-00001" summary="설계 과정 프레임">
       <created>1690549549956</created>
