@@ -2,3 +2,7 @@
 /out/
 /.idea/
 *.iml
+/choiseohyun
+/kimsuhyeok
+/parkhayoon
+.gitignore
