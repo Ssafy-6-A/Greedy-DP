@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1f4c6bac-2e35-4ab5-b2f2-eb73ebb0bd2d" name="Changes" comment="BOJ_2568 풀이 코드">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-    </list>
+    <list default="true" id="1f4c6bac-2e35-4ab5-b2f2-eb73ebb0bd2d" name="Changes" comment="BOJ_2568 풀이 코드" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -129,7 +127,7 @@
       <workItem from="1690558660629" duration="260000" />
       <workItem from="1690630587826" duration="154000" />
       <workItem from="1690630755019" duration="5296000" />
-      <workItem from="1690681892595" duration="4100000" />
+      <workItem from="1690681892595" duration="4326000" />
     </task>
     <task id="LOCAL-00001" summary="설계 과정 프레임">
       <created>1690549549956</created>
