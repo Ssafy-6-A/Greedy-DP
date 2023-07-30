@@ -43,20 +43,14 @@ public class BOJ_15649 {
 			return;
 		}
 		
-		if(depth==arr.length) {
-			return;
-		}
-		else {
-			for(int i=0;i<n;i++) {
-				if(!visited[i]) {
-					visited[i]=true;
-					out[depth]=arr[i];
-					permutation(arr, out, visited, depth+1, r);
-					visited[i]=false;
-				}
+		for(int i=0;i<n;i++) {
+			if(!visited[i]) {
+				visited[i]=true;
+				out[depth]=arr[i];
+				permutation(arr, out, visited, depth+1, r);
+				visited[i]=false;
 			}
 		}
-		
 	}
 	
 }
