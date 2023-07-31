@@ -1,4 +1,4 @@
-package choiseohyun.common;
+package choiseohyun.group;
 
 import java.util.Arrays;
 import java.util.LinkedList;
