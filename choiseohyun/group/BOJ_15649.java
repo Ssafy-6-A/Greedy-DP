@@ -32,7 +32,7 @@ public class BOJ_15649 {
 			if(check[i]==0) {
 				check[i] = 1;
 				tmp[len] = arr[i];
-				dfs(len+1);
+				dfs(len+1);  
 				check[i] = 0;
 			}
 		}
