@@ -31,10 +31,10 @@ public class BOJ_15649 {
 		visited = new boolean[n];
 		out = new int[m];
 		
-		permutation(arr, out, visited, 0, m);
+		permutation(0, m);
 	}
 
-	public static void permutation(int[] arr, int[] out, boolean[] visited, int depth, int r) {
+	public static void permutation(int depth, int r) {
 		if(depth==r) {
 			for(int a: out) {
 				System.out.print(a+" ");
@@ -47,7 +47,7 @@ public class BOJ_15649 {
 			if(!visited[i]) {
 				visited[i]=true;
 				out[depth]=arr[i];
-				permutation(arr, out, visited, depth+1, r);
+				permutation(depth+1, r);
 				visited[i]=false;
 			}
 		}
